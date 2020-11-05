@@ -64,6 +64,7 @@
     if (!label) {
         label = [[BSLabel alloc] init];
     }
+    label.backgroundColor = [NSColor clearColor];
     label.bordered = NO;
     label.editable = NO;
     Node *n = item;
